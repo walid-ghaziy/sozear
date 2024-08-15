@@ -1,0 +1,235 @@
+body{
+  
+    height: 100vh;
+}
+.boxformadmin{
+    width: 100%;
+    height: 50%;
+    
+}
+.formadmin{
+    width: 100%;
+    height: 80%;
+    top: 2%;
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.155);
+}
+.logaut{
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 2%;
+    background-color: rgba(47, 38, 38, 0.408);
+    border: none;
+    border-radius: 7px;
+    width: 15%;
+    padding-left: 20px;
+    height: 35px;
+    backdrop-filter: blur(10px);
+   
+
+}
+.gg-log-in {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 26px;
+    border: 3px solid;
+    border-left: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: -10px;
+  }
+  .gg-log-in::after,
+  .gg-log-in::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+  }
+  .gg-log-in::after {
+    border-top: 4px solid;
+    border-right: 4px solid;
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+    left: -6px;
+    bottom: 6px;
+  }
+  .gg-log-in::before {
+    border-radius: 3px;
+    width: 14px;
+    height: 3px;
+    background: currentColor;
+    left: -15px;
+    bottom: 8px;
+  }
+  
+
+.formadmin input{
+    position: relative;
+    top: 20px;
+    width: 90%;
+    left: 5%;
+    padding: 8px;
+    border: 0.5px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    font-size: 16px;
+   display: block;
+    background-color: whitesmoke;
+}
+.select{
+    position: absolute;
+    width: 40%;
+    left: 8%;
+    padding: 8px;
+    top: 25%;
+    
+}
+#nameuser{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    padding: 10px;
+    top: 5%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(222, 218, 218);
+}
+#nameuser option{
+  font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: aliceblue;
+    backdrop-filter: blur(20px);
+}
+.boxformadmin form .rapta{
+    position: absolute;
+    width: 40%;
+    left: 55%;
+    padding: 8px;
+    top: 25%;
+
+}
+.send{
+    position: relative;
+    width: 35%;
+    left: 40%;
+    display: block;
+    top: 30%;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(4, 93, 93);
+    color: aliceblue;
+
+}
+#inzar{
+    position: relative;
+    width: 30%;
+    left: 20%;
+    display: block;
+    top: 30%;
+}
+#lablinzar{
+    position: relative;
+    width: 35%;
+    left: 43%;
+    display: block;
+    top: 26%;
+    
+}
+.tabledivadmin{
+    width: 98%;
+position: relative;
+margin-bottom: 40px;
+padding-bottom: 10px;
+max-height: 550px;
+overflow-y: scroll;
+
+}
+table{
+   
+    width: 100%;
+    position: relative;
+    height: 100%;
+    
+
+}
+#xrama{
+    margin-top: 40px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+.tabledivadmin table tr{
+    text-align: center;
+    width: 100%;
+    }
+    .tabledivadmin table th{
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+    padding: 3px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .tabledivadmin table td .jebrn{
+    position: relative;
+    width: 30px;
+    left: -5%;
+    background-color: rgb(118, 4, 4);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px;
+    }
+    .tabledivadmin table td{
+    position: relative;
+    overflow: auto;
+    width:auto;
+    height: 30px;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    top: 2px;
+    margin-bottom: 5px;
+    }
+    .tabledivadmin .nametd{
+   overflow-x: scroll;
+        max-width: 60px;
+    }
+    .tabledivadmin .reaction{
+    position: relative;
+        width: 30%;
+    }
+   
+    .tabledivadmin table td .edit{
+    position: relative;
+    background-color: rgb(2, 147, 33);
+    color: rgb(0, 0, 0);
+    border: none;
+    left: -10%;
+    border-radius: 4px;
+  text-decoration: none;
+padding: 5px;
+  display: inline-flex;
+   color: white;
+    }
+    .tabledivadmin table td .delet{
+    position: relative;
+    background-color: rgb(171, 55, 55);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+  text-decoration: none;
+   color: white;
+   left: 0%;
+  padding: 5px;
+    }
+   
